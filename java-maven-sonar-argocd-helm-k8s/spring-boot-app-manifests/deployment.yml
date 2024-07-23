@@ -19,3 +19,5 @@ spec:
         image: lebalu/ultimate-cicd:13
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+        - name: regcred
