@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: lebalu/ultimate-cicd:20
+        image: leblau/ultimate-cicd:20
         ports:
         - containerPort: 8080
       imagePullSecrets:
